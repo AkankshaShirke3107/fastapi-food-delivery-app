@@ -1,5 +1,20 @@
 # 🍕 FastAPI Food Delivery App (QuickBite API)
 
+## Description
+This is a FastAPI backend project for managing a food delivery system.
+
+## Features
+- GET APIs
+- POST APIs with validation
+- CRUD operations
+- Cart and checkout workflow
+- Search, sorting, pagination
+
+## Run
+uvicorn main:app --reload
+
+## Swagger
+http://127.0.0.1:8000/docs
 ## 🚀 Project Overview
 The **QuickBite Food Delivery API** is a backend system built using FastAPI as part of an internship project.  
 It simulates a real-world food delivery platform where users can browse menu items, add items to cart, place orders, and perform advanced operations like search, sorting, and pagination.
